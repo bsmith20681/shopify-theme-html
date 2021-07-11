@@ -1,0 +1,33 @@
+/** placing !important to override boostrap styles **/
+.logo {
+  max-width: 150px;
+}
+.nav-link {
+  color: $black !important;
+  margin-right: 2rem;
+
+  &:hover {
+    color: $grey !important;
+  }
+}
+
+.nav-icon {
+  height: 24px;
+  margin-left: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  #desktop-menu {
+    display: none;
+  }
+
+  .nav-icon {
+    margin: 15px 0 0 0;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  #mobile-menu {
+    display: none;
+  }
+}
