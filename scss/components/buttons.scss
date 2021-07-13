@@ -1,3 +1,13 @@
 .btn {
   font-size: 1.25rem;
+
+  &-blue {
+    color: $white;
+    background-color: $baby-blue;
+
+    &:hover {
+      color: $white;
+      background-color: $dark-baby-blue;
+    }
+  }
 }
