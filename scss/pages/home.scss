@@ -64,3 +64,23 @@
     }
   }
 }
+
+.delivery {
+  background-color: $beige;
+
+  &-text {
+    margin: auto 0;
+  }
+}
+
+.demo {
+  display: flex;
+  flex-wrap: wrap;
+  &-video-image {
+  }
+
+  &-text {
+    max-width: 550px;
+    padding: 1rem 0.5rem;
+  }
+}
