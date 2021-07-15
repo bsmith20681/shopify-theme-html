@@ -84,3 +84,23 @@
     padding: 1rem 0.5rem;
   }
 }
+
+.product {
+  background-color: $beige;
+
+  &-feature-title {
+    font-size: calc(0.3rem + 1.5vw) !important;
+    position: relative;
+
+    &:before {
+      content: "";
+      position: absolute;
+      width: 5px;
+      height: 80%;
+      border-radius: 50px;
+      left: -10px;
+      bottom: 2px;
+      background-color: $baby-blue;
+    }
+  }
+}
