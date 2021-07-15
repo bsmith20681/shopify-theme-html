@@ -1,0 +1,21 @@
+.email-signup {
+  margin: 0 auto;
+  border: 1px solid $light-grey;
+  max-width: 800px;
+  padding: 5px;
+
+  & input {
+    box-sizing: border-box;
+    width: calc(100% - 125px);
+    padding: 0;
+    height: 42px;
+    border: 0;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  & button {
+  }
+}

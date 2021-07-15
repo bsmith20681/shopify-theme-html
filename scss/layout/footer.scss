@@ -1,0 +1,16 @@
+.footer {
+  background-color: $beige;
+  &-links {
+    list-style-type: none;
+    padding: 0;
+  }
+
+  &-link a {
+    color: $grey;
+    text-decoration: none;
+    transition: 0.3s;
+    &:hover {
+      color: $light-grey;
+    }
+  }
+}
